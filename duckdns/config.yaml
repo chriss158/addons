@@ -2,6 +2,7 @@
 version: 1.15.0
 slug: duckdns
 name: Duck DNS
+init: false
 description: >-
   Free Dynamic DNS (DynDNS or DDNS) service with Let's Encrypt support
 url: https://github.com/chriss158/addons/tree/master/duckdns
