@@ -1,11 +1,11 @@
 ---
-version: 1.15.0
+version: 1.14.0
 slug: duckdns
-name: Duck DNS
-init: false
+name: Duck DNS Development
 description: >-
   Free Dynamic DNS (DynDNS or DDNS) service with Let's Encrypt support
 url: https://github.com/chriss158/addons/tree/master/duckdns
+image: homeassistant/{arch}-addon-duckdns
 arch:
   - armhf
   - armv7
