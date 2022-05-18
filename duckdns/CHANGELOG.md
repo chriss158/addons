@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.15.0
+
+- Fix renewal of certificate by setting preferred chain to "ISRG Root X1"
+
 ## 1.14.0
 
 - Add option to specify algorithm used for SSL certificates
