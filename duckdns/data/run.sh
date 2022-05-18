@@ -36,7 +36,7 @@ function le_renew() {
     for domain in $(echo "${domains}" "${aliases}" | tr ' ' '\n' | sort | uniq); do
         domain_args+=("--domain" "${domain}")
     done
-
+    bashio::log.info "Wow"
     dehydrated --cron --algo "${ALGO}" --hook ./hooks.sh --challenge dns-01 "${domain_args[@]}" --preferred-chain "ISRG Root X1" --out "${CERT_DIR}" --config "${WORK_DIR}/config" || true
     LE_UPDATE="$(date +%s)"
 }
